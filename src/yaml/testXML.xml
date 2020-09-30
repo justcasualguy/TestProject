@@ -2,7 +2,7 @@
     <test name="Nopackage" >
         <parameter name="srcFile" value="src/main/resources/a/testFile.txt" />
         <parameter name="destDir" value="src/main/resources/b/" />
-        <parameter name="command" value="ant.bat -version"/>
+        <parameter name="command" value="ant -version"/>
         <classes>
             <class name="Tests"/>
         </classes>
