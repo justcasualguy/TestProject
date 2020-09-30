@@ -1,0 +1,13 @@
+<suite name="Suite1" verbose="1" >
+    <test name="Nopackage" >
+        <parameter name="srcFile" value="src/main/resources/a/testFile.txt" />
+        <parameter name="destDir" value="src/main/resources/b/" />
+        <parameter name="command" value="ant.bat -version"/>
+        <classes>
+            <class name="Tests"/>
+        </classes>
+
+    </test>
+
+
+</suite>

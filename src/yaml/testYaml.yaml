@@ -1,0 +1,13 @@
+name: "Automation Test"
+
+parameters:
+  srcFile: "/src/a/testFile.txt"
+  destDir: "/src/b/"
+  command: "ant -version"
+
+tests:
+  groupByInstances: true
+  classes:
+    - name: "Tests"
+      includedMethods:
+        - copyFileTest
